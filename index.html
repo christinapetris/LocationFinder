@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>mobiForge geolocation map API demo</title>
+    <title>LocationFinder</title>
 	<link rel="stylesheet" type="text/css" href="locationFinder.css">
-
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
     <script>
       var map; 
       function initGeolocation() {
@@ -46,6 +44,8 @@
 
 
     </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUqhDGPtV0nMpypzoi9WRGdycNJg6OxwE&callback=initMap">
+      </script>
   </head>
   <body onload="javascript:initGeolocation()">
 	  <h1> What's my Location?</h1>
